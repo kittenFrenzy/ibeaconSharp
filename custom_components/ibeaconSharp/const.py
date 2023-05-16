@@ -20,11 +20,11 @@ ATTR_MAJOR = "major"
 ATTR_MINOR = "minor"
 ATTR_SOURCE = "source"
 
-UNAVAILABLE_TIMEOUT = 180  # Number of seconds we wait for a beacon to be seen before marking it unavailable
+UNAVAILABLE_TIMEOUT = 60  # Number of seconds we wait for a beacon to be seen before marking it unavailable
 
 # How often to update RSSI if it has changed
 # and look for unavailable groups that use a random MAC address
-UPDATE_INTERVAL = timedelta(seconds=60)
+UPDATE_INTERVAL = timedelta(seconds=10)
 
 # If a device broadcasts this many unique ids from the same address
 # we will add it to the ignore list since its garbage data.

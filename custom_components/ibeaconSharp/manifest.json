@@ -1,6 +1,6 @@
 {
   "domain": "ibeaconSharp",
-  "name": "iBeacon Tracker",
+  "name": "iBeacon Tracker Sharp",
   "bluetooth": [
     {
       "manufacturer_id": 76,

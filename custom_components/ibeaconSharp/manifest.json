@@ -1,5 +1,5 @@
 {
-  "domain": "ibeacon#",
+  "domain": "ibeaconSharp",
   "name": "iBeacon Tracker",
   "bluetooth": [
     {
@@ -13,5 +13,6 @@
   "documentation": "",
   "iot_class": "local_push",
   "loggers": ["bleak"],
+  "issue_tracker": "https://github.com/kittenFrenzy/ibeaconSharp/issues",
   "requirements": ["ibeacon_ble==1.0.1"]
 }

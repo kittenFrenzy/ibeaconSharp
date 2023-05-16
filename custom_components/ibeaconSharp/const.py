@@ -7,13 +7,13 @@ from homeassistant.components.bluetooth import (
 )
 from homeassistant.const import Platform
 
-DOMAIN = "ibeacon"
+DOMAIN = "ibeaconsharp"
 
 PLATFORMS = [Platform.DEVICE_TRACKER, Platform.SENSOR]
 
-SIGNAL_IBEACON_DEVICE_NEW = "ibeacon_tracker_new_device"
-SIGNAL_IBEACON_DEVICE_UNAVAILABLE = "ibeacon_tracker_unavailable_device"
-SIGNAL_IBEACON_DEVICE_SEEN = "ibeacon_seen_device"
+SIGNAL_IBEACON_DEVICE_NEW = "ibeacon_sharp_tracker_new_device"
+SIGNAL_IBEACON_DEVICE_UNAVAILABLE = "ibeacon_sharp_tracker_unavailable_device"
+SIGNAL_IBEACON_DEVICE_SEEN = "ibeacon_sharp_seen_device"
 
 ATTR_UUID = "uuid"
 ATTR_MAJOR = "major"
